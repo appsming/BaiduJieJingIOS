@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59310FC91F57AC1E00CB400F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59310FC81F57AC1E00CB400F /* main.m */; };
+		59310FCC1F57AC1E00CB400F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59310FCB1F57AC1E00CB400F /* AppDelegate.m */; };
+		59310FCF1F57AC1E00CB400F /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 59310FCE1F57AC1E00CB400F /* ViewController.mm */; };
+		59310FD21F57AC1E00CB400F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59310FD01F57AC1E00CB400F /* Main.storyboard */; };
+		59310FD41F57AC1E00CB400F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59310FD31F57AC1E00CB400F /* Assets.xcassets */; };
+		59310FD71F57AC1E00CB400F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59310FD51F57AC1E00CB400F /* LaunchScreen.storyboard */; };
+		59310FED1F57AF2C00CB400F /* PanoShowViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 59310FEC1F57AF2C00CB400F /* PanoShowViewController.mm */; };
+		59310FF21F57B2E900CB400F /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 59310FF11F57B2E900CB400F /* libstdc++.6.0.9.tbd */; };
+		593110261F57B77000CB400F /* PanoFpsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 593110251F57B77000CB400F /* PanoFpsLabel.m */; };
+		593110351F57BD0C00CB400F /* BaiduPanoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593110331F57BD0C00CB400F /* BaiduPanoSDK.framework */; };
+		593110361F57BD0C00CB400F /* IndoorAlbumPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593110341F57BD0C00CB400F /* IndoorAlbumPlugin.framework */; };
+		593110381F57BD3200CB400F /* BaiduPanoResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 593110371F57BD3200CB400F /* BaiduPanoResource.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59310FC41F57AC1E00CB400F /* TestIJieJingForMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestIJieJingForMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59310FC81F57AC1E00CB400F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59310FCA1F57AC1E00CB400F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59310FCB1F57AC1E00CB400F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59310FCD1F57AC1E00CB400F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		59310FCE1F57AC1E00CB400F /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		59310FD11F57AC1E00CB400F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59310FD31F57AC1E00CB400F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59310FD61F57AC1E00CB400F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59310FD81F57AC1E00CB400F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59310FEB1F57AF2C00CB400F /* PanoShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoShowViewController.h; sourceTree = "<group>"; };
+		59310FEC1F57AF2C00CB400F /* PanoShowViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PanoShowViewController.mm; sourceTree = "<group>"; };
+		59310FF11F57B2E900CB400F /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		593110241F57B77000CB400F /* PanoFpsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoFpsLabel.h; sourceTree = "<group>"; };
+		593110251F57B77000CB400F /* PanoFpsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoFpsLabel.m; sourceTree = "<group>"; };
+		593110331F57BD0C00CB400F /* BaiduPanoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduPanoSDK.framework; sourceTree = "<group>"; };
+		593110341F57BD0C00CB400F /* IndoorAlbumPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IndoorAlbumPlugin.framework; sourceTree = "<group>"; };
+		593110371F57BD3200CB400F /* BaiduPanoResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BaiduPanoResource.bundle; path = BaiduPanoSDK.framework/Resource/BaiduPanoResource.bundle; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59310FC11F57AC1E00CB400F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593110351F57BD0C00CB400F /* BaiduPanoSDK.framework in Frameworks */,
+				593110361F57BD0C00CB400F /* IndoorAlbumPlugin.framework in Frameworks */,
+				59310FF21F57B2E900CB400F /* libstdc++.6.0.9.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59310FBB1F57AC1E00CB400F = {
+			isa = PBXGroup;
+			children = (
+				593110231F57B77000CB400F /* View */,
+				59310FC61F57AC1E00CB400F /* TestIJieJingForMap */,
+				59310FC51F57AC1E00CB400F /* Products */,
+				59310FDE1F57AD3E00CB400F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		59310FC51F57AC1E00CB400F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59310FC41F57AC1E00CB400F /* TestIJieJingForMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59310FC61F57AC1E00CB400F /* TestIJieJingForMap */ = {
+			isa = PBXGroup;
+			children = (
+				593110371F57BD3200CB400F /* BaiduPanoResource.bundle */,
+				59310FCA1F57AC1E00CB400F /* AppDelegate.h */,
+				59310FCB1F57AC1E00CB400F /* AppDelegate.m */,
+				59310FCD1F57AC1E00CB400F /* ViewController.h */,
+				59310FCE1F57AC1E00CB400F /* ViewController.mm */,
+				59310FD01F57AC1E00CB400F /* Main.storyboard */,
+				59310FD31F57AC1E00CB400F /* Assets.xcassets */,
+				59310FD51F57AC1E00CB400F /* LaunchScreen.storyboard */,
+				59310FD81F57AC1E00CB400F /* Info.plist */,
+				59310FC71F57AC1E00CB400F /* Supporting Files */,
+				59310FEB1F57AF2C00CB400F /* PanoShowViewController.h */,
+				59310FEC1F57AF2C00CB400F /* PanoShowViewController.mm */,
+			);
+			path = TestIJieJingForMap;
+			sourceTree = "<group>";
+		};
+		59310FC71F57AC1E00CB400F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59310FC81F57AC1E00CB400F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59310FDE1F57AD3E00CB400F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				593110331F57BD0C00CB400F /* BaiduPanoSDK.framework */,
+				593110341F57BD0C00CB400F /* IndoorAlbumPlugin.framework */,
+				59310FF11F57B2E900CB400F /* libstdc++.6.0.9.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		593110231F57B77000CB400F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				593110241F57B77000CB400F /* PanoFpsLabel.h */,
+				593110251F57B77000CB400F /* PanoFpsLabel.m */,
+			);
+			name = View;
+			path = TestIJieJingForMap/View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59310FC31F57AC1E00CB400F /* TestIJieJingForMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59310FDB1F57AC1E00CB400F /* Build configuration list for PBXNativeTarget "TestIJieJingForMap" */;
+			buildPhases = (
+				59310FC01F57AC1E00CB400F /* Sources */,
+				59310FC11F57AC1E00CB400F /* Frameworks */,
+				59310FC21F57AC1E00CB400F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestIJieJingForMap;
+			productName = TestIJieJingForMap;
+			productReference = 59310FC41F57AC1E00CB400F /* TestIJieJingForMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59310FBC1F57AC1E00CB400F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.wxkj;
+				TargetAttributes = {
+					59310FC31F57AC1E00CB400F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 62S9M62TF3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 59310FBF1F57AC1E00CB400F /* Build configuration list for PBXProject "TestIJieJingForMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59310FBB1F57AC1E00CB400F;
+			productRefGroup = 59310FC51F57AC1E00CB400F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59310FC31F57AC1E00CB400F /* TestIJieJingForMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59310FC21F57AC1E00CB400F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59310FD71F57AC1E00CB400F /* LaunchScreen.storyboard in Resources */,
+				59310FD41F57AC1E00CB400F /* Assets.xcassets in Resources */,
+				59310FD21F57AC1E00CB400F /* Main.storyboard in Resources */,
+				593110381F57BD3200CB400F /* BaiduPanoResource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59310FC01F57AC1E00CB400F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59310FCF1F57AC1E00CB400F /* ViewController.mm in Sources */,
+				59310FED1F57AF2C00CB400F /* PanoShowViewController.mm in Sources */,
+				59310FCC1F57AC1E00CB400F /* AppDelegate.m in Sources */,
+				593110261F57B77000CB400F /* PanoFpsLabel.m in Sources */,
+				59310FC91F57AC1E00CB400F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		59310FD01F57AC1E00CB400F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59310FD11F57AC1E00CB400F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59310FD51F57AC1E00CB400F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59310FD61F57AC1E00CB400F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59310FD91F57AC1E00CB400F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		59310FDA1F57AC1E00CB400F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59310FDC1F57AC1E00CB400F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62S9M62TF3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestIJieJingForMap/BaiduPanoSDK",
+					"$(PROJECT_DIR)/TestIJieJingForMap/BaiduPano",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TestIJieJingForMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaiduPanoSDK.framework",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wxkj.sence.TestIJieJingForMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		59310FDD1F57AC1E00CB400F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62S9M62TF3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestIJieJingForMap/BaiduPanoSDK",
+					"$(PROJECT_DIR)/TestIJieJingForMap/BaiduPano",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TestIJieJingForMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaiduPanoSDK.framework",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wxkj.sence.TestIJieJingForMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59310FBF1F57AC1E00CB400F /* Build configuration list for PBXProject "TestIJieJingForMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59310FD91F57AC1E00CB400F /* Debug */,
+				59310FDA1F57AC1E00CB400F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59310FDB1F57AC1E00CB400F /* Build configuration list for PBXNativeTarget "TestIJieJingForMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59310FDC1F57AC1E00CB400F /* Debug */,
+				59310FDD1F57AC1E00CB400F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59310FBC1F57AC1E00CB400F /* Project object */;
+}
